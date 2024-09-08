@@ -8,45 +8,45 @@
 
 @font-face {
 	font-family: "noto serif sc";
-	src: local("LiSong Pro");
+	src: local("serif");
 }
 
 @font-face {
 	font-family: "SongTi SC";
-	src: local("LiSong Pro");
+	src: local("serif");
 }
 
 @font-face {
 	font-family: "noto sans sc";
-	src: local("PingFang HK");
+	src: local("sans-serif");
 }
 
 @font-face {
 	font-family: "PingFang SC";
-	src: local("PingFang HK");
+	src: local("sans-serif");
 }
 
 @font-face {
 	font-family: "Hiragino Sans GB";
-	src: local("PingFang HK");
+	src: local("sans-serif");
 }
 
 @font-face {
 	font-family: "Microsoft YaHei UI";
-	src: local("PingFang HK");
+	src: local("sans-serif");
 }
 
 @font-face {
 	font-family: "Microsoft YaHei";
-	src: local("PingFang HK");
+	src: local("sans-serif");
 }
 
 @font-face {
 	font-family: "Microsoft Yahei";
-	src: local("PingFang HK");
+	src: local("sans-serif");
 }
 
 @font-face {
 	font-family: "SF Pro SC";
-	src: local("PingFang HK");
+	src: local("sans-serif");
 }
