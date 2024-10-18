@@ -19,21 +19,18 @@
 	}
 }
 
-#tabbrowser-tabs arrowscrollbox {
-	--scrollbox-display: flex;
-	--scrollbox-justify-content: start;
+#tabbrowser-arrowscrollbox:not([overflowing]) {
+	--tab-centering: center;
 }
 
-#tabbrowser-tabs arrowscrollbox:not([overflowing="true"]) {
-	--scrollbox-display: flex;
-	--scrollbox-justify-content: center;
+scrollbox[orient="horizontal"] > slot {
+	justify-content: var(--tab-centering, initial);
 }
 
 .scrollbox-clip scrollbox:not(:has(scrollbar)) {
 	display: var(--scrollbox-display, flex, -moz-box) !important;
 	justify-content: var(--scrollbox-justify-content) !important;
-	/* Uncomment to enable multi-line tab bar */
-	/* flex-wrap: wrap !important; */
+	flex-wrap: wrap !important;
 }
 
 #tabbrowser-tabs {
