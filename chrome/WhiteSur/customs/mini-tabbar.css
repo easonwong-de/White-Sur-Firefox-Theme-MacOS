@@ -25,11 +25,6 @@
 
 scrollbox[orient="horizontal"] > slot {
 	justify-content: var(--tab-centering, initial);
-}
-
-.scrollbox-clip scrollbox:not(:has(scrollbar)) {
-	display: var(--scrollbox-display, flex, -moz-box) !important;
-	justify-content: var(--scrollbox-justify-content) !important;
 	flex-wrap: wrap !important;
 }
 
