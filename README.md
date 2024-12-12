@@ -3,9 +3,9 @@
 This is an [Adaptive-Tab-Bar-Colour](https://github.com/easonwong-de/Adaptive-Tab-Bar-Colour)-compatible version of Firefox WhiteSur theme  
 To skip to the original `README.md`, please click [here](#firefox-whitesur-theme)
 
-<p align="center"><img width="45%" src="https://raw.githubusercontent.com/easonwong-de/WhiteSurFirefoxThemeMacOS/master/githubpreview/White_Sur_%26_ATBC_3.png"><img width="45%" src="https://raw.githubusercontent.com/easonwong-de/WhiteSurFirefoxThemeMacOS/master/githubpreview/White_Sur_%26_ATBC_2.png"></p>
+**This CSS theme is optimised only for the release version of Firefox.**  
 
-This CSS theme is optimised for the release version of Firefox.
+<p align="center"><img width="45%" src="https://raw.githubusercontent.com/easonwong-de/WhiteSurFirefoxThemeMacOS/master/githubpreview/White_Sur_%26_ATBC_3.png"><img width="45%" src="https://raw.githubusercontent.com/easonwong-de/WhiteSurFirefoxThemeMacOS/master/githubpreview/White_Sur_%26_ATBC_2.png"></p>
 
 ### Quick Link
 
@@ -15,7 +15,7 @@ This CSS theme is optimised for the release version of Firefox.
 
 ### Changes
 
--   Colours are controled by browser theme, thus controled by Adaptive Tab Bar Colour
+-   Colours are controlled by browser theme, thus controlled by Adaptive Tab Bar Colour
 -   Close tab buttons are on the left side
 -   Buttons and the outline of URL field behave closer to Safari
 -   Colours of button icons now follow the browser theme
@@ -51,7 +51,7 @@ These are some examples:
 
     <img width="50%" src="https://raw.githubusercontent.com/easonwong-de/WhiteSurFirefoxThemeMacOS/master/githubpreview/mini-tabbar.png"><br>
 
-    -   `tab-preview-on-hover.css` (Requires [Tab Preview On Hover](https://github.com/easonwong-de/Tab-Preview-On-Hover)) <br>
+    -   ~~`tab-preview-on-hover.css` (Requires [Tab Preview On Hover](https://github.com/easonwong-de/Tab-Preview-On-Hover)) <br>~~
 
     <img width="50%" src="https://raw.githubusercontent.com/easonwong-de/WhiteSurFirefoxThemeMacOS/master/githubpreview/tab-preview-on-hover.png"><br>
 
@@ -61,7 +61,7 @@ These are some examples:
 
 The whole configuation list can be found under `chrome -> WhiteSur -> customs`.
 
-<br><br>
+<br>
 
 Additional `README.md` ends here.
 
