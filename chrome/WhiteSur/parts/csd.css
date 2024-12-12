@@ -41,8 +41,8 @@
 
 /* Window buttons box */
 
-:root[tabsintitlebar]:not([inFullscreen]) #titlebar .titlebar-buttonbox-container,
-:root[tabsintitlebar]:not([inFullscreen]) #titlebar-buttonbox-container {
+:root[tabsintitlebar]:not([inFullscreen]) #TabsToolbar .titlebar-buttonbox-container,
+:root[tabsintitlebar]:not([inFullscreen]) #TabsToolbar-buttonbox-container {
 	appearance: none;
 	-moz-appearance: none !important;
 	padding: 0 3px 0 4px;
@@ -71,7 +71,7 @@
 
 	/* Window buttons box */
 
-	:root[tabsintitlebar] #titlebar .titlebar-buttonbox-container {
+	:root[tabsintitlebar] #TabsToolbar .titlebar-buttonbox-container {
 		padding: 0 3px 0 4px;
 		left: 8px;
 		right: auto;
@@ -92,7 +92,7 @@
 
 	/* Remove default style of titlebar */
 
-	:root[tabsintitlebar] #titlebar {
+	:root[tabsintitlebar] #TabsToolbar {
 		appearance: none;
 		-moz-appearance: none !important;
 	}

@@ -129,9 +129,8 @@ toolbarspring {
 }
 
 #urlbar[breakout][breakout-extend] {
-	left: 0 !important;
-	top: 0 !important;
-	width: 100% !important;
+	top: 9.5px !important;
+	width: var(--urlbar-width) !important;
 	z-index: 5 !important;
 	padding: 0 !important;
 }
@@ -297,7 +296,10 @@ toolbarspring {
 	opacity: 0.6 !important;
 }
 
-.urlbarView-row:is([type="switchtab"], [type="remotetab"]) > .urlbarView-row-inner > .urlbarView-no-wrap > .urlbarView-action {
+.urlbarView-row:is([type="switchtab"], [type="remotetab"])
+	> .urlbarView-row-inner
+	> .urlbarView-no-wrap
+	> .urlbarView-action {
 	padding: 1px 8px !important;
 	margin-inline: 0.5em !important;
 	border-radius: 8px !important;
