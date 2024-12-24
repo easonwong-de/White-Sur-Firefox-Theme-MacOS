@@ -3,7 +3,7 @@
 This is an [Adaptive-Tab-Bar-Colour](https://github.com/easonwong-de/Adaptive-Tab-Bar-Colour)-compatible version of Firefox WhiteSur theme  
 To skip to the original `README.md`, please click [here](#firefox-whitesur-theme)
 
-**This CSS theme is optimised for the release version of Firefox on macOS. Compatibility with other platforms or Firefox versions is not guaranteed.**
+**This CSS theme is optimised for the release version of Firefox on macOS. Compatibility with other platforms or Firefox versions cannot be assured.**
 
 As I actively use this theme on my primary device, any graphical issues will be addressed promptly.
 
