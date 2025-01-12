@@ -38,7 +38,7 @@
 menupopup {
 	appearance: none;
 	-moz-appearance: none !important;
-	padding: 4px !important;
+	padding: var(--macos-menu-padding) !important;
 	border-radius: var(--macos-menu-border-radius) !important;
 	border: var(--macos-menu-border) !important;
 	outline: var(--macos-menu-outline) !important;
@@ -555,3 +555,10 @@ richlistbox.autocomplete-richlistbox {
 #PopupSearchAutoComplete > hbox.search-panel-header:hover {
 	background-color: var(--macos-menu-item-hover);
 }
+
+/* Tab Preview Panel */
+
+#tab-preview-panel {
+	--panel-padding: 0 !important;
+}
+
