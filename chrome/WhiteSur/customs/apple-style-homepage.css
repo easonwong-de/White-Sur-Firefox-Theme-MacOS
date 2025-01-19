@@ -83,6 +83,10 @@ url("about:newtab") {
 		background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
 	}
 
+	.tile {
+		outline: none !important;
+	}
+
 	.icon.icon-pin-small {
 		display: none !important;
 	}
