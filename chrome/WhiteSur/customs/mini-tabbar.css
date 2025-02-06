@@ -6,16 +6,16 @@
 
 :root {
 	--macos-tabbar-tab-background: var(--macos-tabstoolbar-background) !important;
-	--macos-tabbar-tab-active-background: color-mix(in srgb, var(--macos-tabstoolbar-background) 90%, white) !important;
-	--macos-tabbar-tab-active-hover-background: color-mix(in srgb, var(--macos-tabstoolbar-background) 95%, white) !important;
+	--macos-tabbar-tab-active-background: color-mix(in srgb, var(--macos-tabstoolbar-background) 90%, currentColor) !important;
+	--macos-tabbar-tab-active-hover-background: color-mix(in srgb, var(--macos-tabstoolbar-background) 95%, currentColor) !important;
 	--macos-inactive-tabbar-tab-active-background: var(--macos-tabbar-tab-active-background) !important;
 	--macos-hover-urlbar-border-color: var(--macos-tabbar-tab-active-background) !important;
 }
 
 @media (prefers-color-scheme: light) {
 	:root {
-		--macos-tabbar-tab-active-background: color-mix(in srgb, var(--macos-tabstoolbar-background) 90%, black) !important;
-		--macos-tabbar-tab-active-hover-background: color-mix(in srgb, var(--macos-tabstoolbar-background) 95%, black) !important;
+		--macos-tabbar-tab-active-background: color-mix(in srgb, var(--macos-tabstoolbar-background) 90%, currentColor) !important;
+		--macos-tabbar-tab-active-hover-background: color-mix(in srgb, var(--macos-tabstoolbar-background) 95%, currentColor) !important;
 	}
 }
 

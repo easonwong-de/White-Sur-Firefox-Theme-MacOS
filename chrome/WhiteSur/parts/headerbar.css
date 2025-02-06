@@ -11,13 +11,13 @@
 
 /* Headerbar CSD colors */
 
-:root[tabsintitlebar] #nav-bar {
+:root #nav-bar {
 	border: none !important;
 	border-bottom: none !important;
 	box-shadow: none !important;
 }
 
-:root[tabsintitlebar] #nav-bar:-moz-window-inactive {
+:root #nav-bar:-moz-window-inactive {
 	box-shadow: none !important;
 }
 
@@ -102,6 +102,10 @@
 	padding: 0 6px !important;
 	height: 32px !important;
 	max-height: 32px !important;
+}
+
+#nav-bar #urlbar[breakout][breakout-extend] .urlbar-input-container {
+	background: var(--macos-urlbar-focus-background) !important;
 }
 
 #nav-bar-customization-target {

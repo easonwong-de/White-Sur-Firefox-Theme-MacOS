@@ -94,6 +94,7 @@ menulist,
 #searchbar {
 	margin: 0 3px !important;
 	padding: 0 !important;
+	color: initial !important;
 }
 
 .searchbar-textbox {

@@ -35,13 +35,13 @@
 #TabsToolbar {
 	background: var(--macos-tabstoolbar-background) !important;
 	border: 0 !important;
-	border-bottom: 1px solid var(--macos-toolbar-border-color) !important;
+	border-bottom: 1px solid var(--macos-headerbar-border-color) !important;
 }
 
 findbar {
 	border: 0 !important;
 	background: var(--macos-findbar-background) !important;
-	border-bottom: 1px solid var(--macos-toolbar-border-color) !important;
+	border-bottom: 1px solid var(--macos-headerbar-border-color) !important;
 }
 
 #nav-bar:-moz-window-inactive,

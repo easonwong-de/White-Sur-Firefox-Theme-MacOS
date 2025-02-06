@@ -160,7 +160,6 @@ toolbarspring {
 	padding: 4px !important;
 	margin: 0 !important;
 	border-radius: var(--macos-menu-border-radius) !important;
-	color: var(--macos-toolbar-color) !important;
 	background: var(--macos-menu-background) !important;
 	border: var(--macos-menu-border) !important;
 	outline: var(--macos-menu-outline) !important;
@@ -188,9 +187,11 @@ toolbarspring {
 	height: 12px !important;
 }
 
+.urlbarView-action,
 .urlbarView-url {
+	visibility: visible !important;
 	margin: 0 !important;
-	padding-inline: 0.5rem !important;
+	padding-inline: 0 !important;
 	color: inherit !important;
 	opacity: 0.6 !important;
 }
@@ -290,11 +291,6 @@ toolbarspring {
 	display: none !important;
 }
 
-.urlbarView-action {
-	color: inherit !important;
-	opacity: 0.6 !important;
-}
-
 .urlbarView-row:is([type="switchtab"], [type="remotetab"])
 	> .urlbarView-row-inner
 	> .urlbarView-no-wrap
@@ -310,9 +306,13 @@ toolbarspring {
 	min-height: 0;
 }
 
+.urlbarView-title-separator {
+	margin-inline-end: 0.5rem !important;
+}
+
 .urlbarView-title-separator,
 .urlbarView-url {
-	visibility: inherit !important;
+	visibility: visible !important;
 }
 
 .urlbarView-title-separator,
@@ -321,9 +321,15 @@ toolbarspring {
 }
 
 /* Search engines buttons */
+
 .search-one-offs {
 	display: none !important;
 	padding: 4px 0 0 0 !important;
+}
+
+/* Hide "..." button in entries under "recent search" */
+.urlbarView-button.urlbarView-button-menu {
+	display: none !important;
 }
 
 .urlbarView:not([noresults]) > .search-one-offs:not([hidden]) {

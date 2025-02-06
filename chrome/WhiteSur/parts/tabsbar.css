@@ -2,6 +2,12 @@
 
 @namespace xul "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul";
 
+/* Prevent tab bar from becoming transparent */
+
+.browser-titlebar {
+	--inactive-titlebar-opacity: 1 !important;
+}
+
 /* Tabs bar height */
 
 #tabbrowser-tabs,
@@ -35,7 +41,7 @@ tab > stack {
 	margin-bottom: 0 !important;
 }
 
-:root[tabsintitlebar][inFullscreen] #TabsToolbar .toolbar-items {
+:root[inFullscreen] #TabsToolbar .toolbar-items {
 	margin-bottom: 0 !important;
 }
 
@@ -89,11 +95,11 @@ tab[selected] {
 }
 
 tab:-moz-window-inactive {
-	color: var(--macos-inactive-tabbar-tab-color) !important;
+	color: var(--macos-tabbar-tab-color) !important;
 }
 
 tab[selected]:-moz-window-inactive {
-	color: var(--macos-inactive-tabbar-tab-active-color) !important;
+	color: var(--macos-tabbar-tab-active-color) !important;
 }
 
 /* Center all inside tab */
@@ -297,7 +303,7 @@ toolbar .toolbarbutton-1 {
 }
 
 .tab-background[selected]:-moz-window-inactive {
-	background-color: var(--macos-inactive-tabbar-tab-active-background) !important;
+	background-color: var(--macos-tabbar-tab-active-background) !important;
 	border-image: none !important;
 }
 

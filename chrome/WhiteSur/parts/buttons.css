@@ -306,18 +306,25 @@ menupopup > menuitem[_moz-menuactive="true"]:not(:hover) {
 	margin-right: 0 !important;
 }
 
-#appMenu-zoomReduce-button2:not([disabled]):hover > .toolbarbutton-icon,
-#appMenu-zoomEnlarge-button2:not([disabled]):hover > .toolbarbutton-icon,
-#appMenu-zoomReduce-button2:not([disabled]):active > .toolbarbutton-icon,
-#appMenu-zoomEnlarge-button2:not([disabled]):active > .toolbarbutton-icon {
-	stroke: var(--button-bgcolor) !important;
+#appMenu-zoomReduce-button2 > .toolbarbutton-icon,
+#appMenu-zoomEnlarge-button2 > .toolbarbutton-icon,
+#appMenu-fullscreen-button2 > .toolbarbutton-icon,
+#appMenu-zoomReduce-button2:hover > .toolbarbutton-icon,
+#appMenu-zoomEnlarge-button2:hover > .toolbarbutton-icon,
+#appMenu-fullscreen-button2:hover > .toolbarbutton-icon,
+#appMenu-zoomReduce-button2:active > .toolbarbutton-icon,
+#appMenu-zoomEnlarge-button2:active > .toolbarbutton-icon,
+#appMenu-fullscreen-button2:active > .toolbarbutton-icon {
+	stroke: transparent !important;
 }
 
+#appMenu-zoomReset-button2:not([disabled]) > .toolbarbutton-text,
+#appMenu-fullscreen-button2:not([disabled]) > .toolbarbutton-icon,
 #appMenu-zoomReset-button2:not([disabled]):hover > .toolbarbutton-text,
 #appMenu-fullscreen-button2:not([disabled]):hover > .toolbarbutton-icon,
 #appMenu-zoomReset-button2:not([disabled]):active > .toolbarbutton-text,
 #appMenu-fullscreen-button2:not([disabled]):active > .toolbarbutton-icon {
-	background-color: var(--button-bgcolor) !important;
+	background-color: transparent !important;
 }
 
 .subviewbutton.panel-subview-footer:not(:only-of-type):not(:first-of-type),
