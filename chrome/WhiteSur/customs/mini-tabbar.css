@@ -6,16 +6,32 @@
 
 :root {
 	--macos-tabbar-tab-background: var(--macos-tabstoolbar-background) !important;
-	--macos-tabbar-tab-active-background: color-mix(in srgb, var(--macos-tabstoolbar-background) 90%, currentColor) !important;
-	--macos-tabbar-tab-active-hover-background: color-mix(in srgb, var(--macos-tabstoolbar-background) 95%, currentColor) !important;
+	--macos-tabbar-tab-active-background: color-mix(
+		in srgb,
+		var(--macos-tabstoolbar-background) 90%,
+		currentColor
+	) !important;
+	--macos-tabbar-tab-active-hover-background: color-mix(
+		in srgb,
+		var(--macos-tabstoolbar-background) 95%,
+		currentColor
+	) !important;
 	--macos-inactive-tabbar-tab-active-background: var(--macos-tabbar-tab-active-background) !important;
 	--macos-hover-urlbar-border-color: var(--macos-tabbar-tab-active-background) !important;
 }
 
 @media (prefers-color-scheme: light) {
 	:root {
-		--macos-tabbar-tab-active-background: color-mix(in srgb, var(--macos-tabstoolbar-background) 90%, currentColor) !important;
-		--macos-tabbar-tab-active-hover-background: color-mix(in srgb, var(--macos-tabstoolbar-background) 95%, currentColor) !important;
+		--macos-tabbar-tab-active-background: color-mix(
+			in srgb,
+			var(--macos-tabstoolbar-background) 90%,
+			currentColor
+		) !important;
+		--macos-tabbar-tab-active-hover-background: color-mix(
+			in srgb,
+			var(--macos-tabstoolbar-background) 95%,
+			currentColor
+		) !important;
 	}
 }
 
@@ -100,7 +116,14 @@ tab > stack {
 
 .tab-close-button:not([pinned]) {
 	margin-inline-start: auto !important;
-	margin-inline-end: 5.5px !important;
+	margin-inline-end: var(--tab-icon-end-margin) !important;
+}
+
+.tab-audio-button {
+	--button-size-icon-small: 12px !important;
+	--button-min-height-small: 12px !important;
+	--tab-icon-end-margin: 5.5px !important;
+	height: 22px !important;
 }
 
 .tab-background {
@@ -159,13 +182,15 @@ tab > stack {
 	margin-bottom: 4px !important;
 }
 
-.tabbrowser-tab:not([pinned]) .tab-close-button {
+.tabbrowser-tab:not([pinned]) .tab-close-button,
+.tabbrowser-tab:not([pinned]) .tab-audio-button {
 	opacity: 0.85 !important;
 	visibility: visible !important;
 	transition: none !important;
 }
 
-.tabbrowser-tab:not([pinned]):hover .tab-close-button {
+.tabbrowser-tab:not([pinned]):hover .tab-close-button,
+.tabbrowser-tab:not([pinned]):hover .tab-audio-button {
 	opacity: 1;
 	visibility: visible !important;
 	transition: none !important;
@@ -183,8 +208,4 @@ stack[soundplaying="true"] + .tab-label-container[textoverflow] {
 
 #TabsToolbar-customization-target > toolbarbutton {
 	display: none !important;
-}
-
-.tabbrowser-tab::after {
-	top: 80px !important;
 }
