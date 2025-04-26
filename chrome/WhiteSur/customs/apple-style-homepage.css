@@ -13,11 +13,15 @@ url("about:newtab") {
 		display: none !important;
 	}
 
+	.top-sites-list {
+		margin: 0 !important;
+	}
+
 	.section-title > span,
 	.top-sites-list-wrapper::before {
 		content: "Favourites";
 		display: block;
-		padding: 20px 10px !important;
+		padding: 2rem 0 !important;
 		font-size: 22px !important;
 		font-weight: 900 !important;
 	}
